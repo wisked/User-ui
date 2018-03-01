@@ -1,5 +1,6 @@
 # user.ui
-
+<h1>this project allow adminstrators add new and edit information about employees. Set status and change employee department</h1> 
+<p>This project use axios, vue-resources for queries to api, material framework vuetify vuex for app state and vue-router fro routing.</p> 
 > A Vue.js project
 
 ## Build Setup

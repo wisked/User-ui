@@ -1,0 +1,414 @@
+.nav-drawer a.list__tile.list__tile--link { 
+    padding-left: 12px; 
+}
+.nav-drawer div.list__tile__title {
+    letter-spacing: 0.5px;
+}
+.nav-drawer a.list__tile--link:hover {
+    background-color: initial;
+}
+.nav-drawer .list.list--dense {
+    padding-top: 17px;
+}
+.datatable.table .col-delete {
+    padding-right: 0;
+}
+
+.card__title.card-employee-title {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.card__text.card-checkbox {
+    padding-top: 0;
+}
+.card__text.card-checkbox ul {
+    padding-top: 8px;
+    padding-bottom: 1px;
+}
+.card__text.card-checkbox .checkbox {
+    height: 33px !important;
+}
+.card__text.employees-text .main-info {
+    margin-left: 14px !important;
+    margin-right: 14px !important;
+    margin-bottom: 10px !important;
+}
+.card__text.employees-text {
+    padding-top: 16px;
+}
+@media screen and (max-width: 599px) {
+    .card__text.employees-text {
+        padding-top: 9px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .card__text.employees-text .main-info,
+    .card__text.employees-text .contact-info-card {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+
+    .card__text.main-info-text .layout.main-info-name{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .card__text.main-info-text .input-email,
+    .card__text.main-info-text .input-firstname {
+        margin-bottom: 20px;
+        height: 40px;
+    }
+    main.content {
+        padding-top: 56px !important;
+    }
+    .top-navbar > .title-navbar {
+        overflow: unset !important;
+    }
+    .title-navbar {
+        min-width: 100px;
+    }
+}
+.ma-2.card-checkbox.card {
+    margin: 0 7px !important;
+}
+.card__text.card-checkbox .input-group label {
+    font-size: 12px;
+    color: black !important;
+}
+.table__overflow.elevation-1.employee-salary-table th {
+    text-align: center !important;
+}
+.table__overflow.elevation-1.employee-salary-table tr {
+    line-height: 66px !important;
+}
+.btn.primary.back {
+    background-color: #3F51B5 !important;
+    padding: 0 36px;
+}
+.btn.primary.delete-role {
+    background-color: #3F51B5 !important;
+    margin-left: 10px;
+    padding: 0 30px;
+}
+.buttons-confirm .btn {
+    min-width: 150px;
+}
+.flex.add-employee-date.xs11.sm2 input {
+    font-size: 12px !important;
+}
+.flex.add-employee-date.xs11.sm2 {
+    max-width: 135px;
+}
+.employees-header {
+    font-size: 24px;
+    padding-left: 13px;
+    padding-top: 3px;
+}
+.card__title.employee-title {
+    padding-bottom: 0;
+}
+.select-card input,
+.select-card .input-group__selections__comma {
+    font-size: 12px !important;
+    padding: 3px 4px 0px 0px !important;
+}
+.datapicker-wrapper input {
+    font-size: 12px !important;
+}
+.input-card .input-group__input {
+    min-height: 25px !important;
+}
+.card__text.english-text-card {
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+.card__text.schedule-text-card {
+    padding-top: 2px;
+}
+.layout.schedule-group.column {
+    max-width: 18%;
+}
+.card__title.card-schedule-title {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 11px;
+    padding-left: 18px;
+}
+.ma-2.card-schedule {
+    height: 135px !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+}
+
+.input-card.input-group--dirty:not(.input-group--select) label,
+.input-card.input-group--focused:not(.input-group--select) label  {
+    -webkit-transform: translateY(-16px) !important;
+    transform: translateY(-16px) !important;
+}
+.input-card input {
+    margin-top: 6px;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+}
+.contact-phone-skype {
+    height: 43px;
+}
+.contact-telegram.input-group.input-group--text-field.primary--text {
+    height: 49px;
+}
+.card__text.card-checkbox label {
+    line-height: 25px;
+}
+.card-checkbox.role {
+    min-width: 153px;
+}
+.ma-2.contact-info-card.card, .ma-2.english-level-card.card {
+    margin: 10px 15px !important;
+}
+.flex.english-level-card {
+    margin-top: -15px;
+}
+.ma-3.salary-header {
+    margin-left: 15px !important;
+    padding-top: 2px;
+    margin-bottom: 0 !important;
+    position: relative;
+}
+.salary-btn.btn.btn--icon {
+    margin-left: 2px !important;
+}
+.salary-table-card.card {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    margin-top: 6px !important;
+}
+.card__title.employee-title.employee-edit {
+    padding-top: 16px;
+    margin-bottom: -5px;
+}
+.card__text.employees-text .buttons-confirm {
+    margin-top: 12px;
+    padding-right: 7px;
+}
+.card__text.employees-text .layout.roles-dep-wrapper.row {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+*::-webkit-scrollbar {
+    width: 9px;
+    background-color: #E0E0E0;
+    border: 0.5px solid rgba(0, 0, 0, 0.16)
+}
+ 
+*::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    width: 8px;
+    background-color: rgba(117, 117, 117, 0.57);
+}
+
+.small-drop .list__tile {
+    height: 34px !important;
+}
+
+.small-drop .list__tile:hover {
+    background-color: #EEEEEE !important;
+}
+
+.small-drop .list__tile button {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Roboto,sans-serif;
+    color: #000000;
+}
+.layout.schedule-group.column {
+    margin-top: -2px;
+}
+.layout.schedule-group.column flex {
+    margin-bottom: 2px;
+}
+.menu__activator input {
+    position: static;
+}
+.schedule-group label {
+    color: black !important;
+    font-size: 12px !important;
+}
+
+.card__text.employees-text label {
+    font-size: 12px !important;
+}
+.card__text.schedule-text-card .menu__activator .input-group--text-field.input-group--prepend-icon label {
+    left: 33px;
+    top: 8px;
+    color: black !important;
+    transform: translateY(-16px) ; 
+}
+.card__text.schedule-text-card .menu__activator .input-group__details {
+    margin-top: -7px;
+}
+.datatable.table .salary-table_updated-date {
+    position: relative;
+    width: 50%;
+}
+.datatable.table .salary-table_updated-date:after {
+    content: '';
+    display: block;
+    width: 1px;
+    background-color: lightgrey;
+    position: absolute;
+    top: 12px;
+    right: 0;
+    bottom: 12px;
+}
+.datatable.table .salary-table_amount {
+    width: 40%;
+}
+.login__form.mt-4.card {
+    width: 250px;
+}
+.edit-icon.btn.btn--icon {
+    margin-right: 8px !important;
+}
+.employee-table tbody td:first-child {
+    padding: 0 !important;
+}
+.app-table tbody td:first-child {
+    padding: 0 12px !important;
+}
+.edit-tooltip {
+    margin-left: -54px;
+}
+.delete-tooltip {
+    margin-left: -15px;
+}
+.app-table {
+    min-width: 100px;
+    table-layout: fixed;
+}
+.users-coordinator .list__tile__title,
+.english-level .list__tile__title,
+.select-salary-currency .list__tile__title,
+.sort-menu .list__tile--link {
+    font-size: 12px;
+}
+.users-coordinator .list__tile,
+.english-level .list__tile,
+.select-salary-currency .list__tile {
+    height: 35px;
+}
+.users-coordinator .list__tile,
+.english-level .list__tile,
+.select-salary-currency .list__tile {
+    padding-left: 5px;
+}
+.menu__content.menu__content--select.users-coordinator.menuable__content__active,
+.menu__content.menu__content--select.english-level.menuable__content__active {
+    max-height: 300px !important;
+}
+.menu__content.menu__content--select.users-coordinator .list,
+.menu__content.menu__content--select.english-level .list,
+.menu__content.menu__content--select.select-salary-currency .list {
+    padding: 0 !important;
+}
+.edit-tooltip {
+    margin-left: -54px;
+}
+.delete-tooltip {
+    margin-left: -15px;
+}
+.app-table {
+    min-width: 250px;
+}
+.expansion-pagination {
+    height: 60px;
+    min-width: 240px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #3f51b5;
+}
+.pagination-info {
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.pagination-elements {
+    padding-bottom: 4px;
+}
+
+
+    .ma-2.card-schedule {
+        height: auto !important;
+    }
+.list--dense .list__tile {
+    height: 46px !important;
+}
+.card__title.english-card-title {
+    margin-bottom: -5px;
+}
+.employees-text input {
+    font-size: 12px !important;
+}
+.card__text.schedule-text-card .datapicker-wrapper .input-group__details {
+    margin-left: 34px;
+}
+.card__text.schedule-text-card .datapicker-wrapper input {
+    margin-left: -6px;
+}
+@media screen and (max-width: 576px) {
+    .card__text.main-info-text .layout.main-info-name{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .card__text.main-info-text .input-email,
+    .card__text.main-info-text .input-firstname {
+        margin-bottom: 20px;
+        height: 40px;
+    }
+}
+
+.qusers-add-button-icon.btn {
+    min-width: 36px;
+    width: 36px;
+    margin: 6px 9px;
+    background-color: #CED2E6 !important;
+}
+.tablet-employees {
+    margin: 5px 0;
+    box-shadow: 0 2px 1px -1px #CCCCCC, 0 1px 1px 0 #DBDBDB, 0 1px 3px 0 #E0E0E0;
+}
+.employee-expansion-panel {
+    padding-left: 24px;
+    padding-right: 24px;
+    justify-content: flex-start;
+}
+.tablet-header {
+    font-size: 24px;
+}
+.tablet-employees .expansion-panel__header {
+    height: 60px;
+    padding-left: 15px;
+}
+.user-card-actions .btn__content::before {
+    border-radius: 2px !important;
+}
+@media screen and (max-width: 600px) {
+    .salary-table-card.card {
+        margin-bottom: 0 !important;
+    }
+    .card__text.employees-text .buttons-confirm {
+        margin-top: 2px;
+    }
+}
+
+.buttons-confirm {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
